@@ -1,0 +1,18 @@
+name: ClearLagg - Nes
+main: Nes\Clear\ClearLaggMain\ClearLaggMain
+api: [2.0.0]
+load: STARTUP
+author: NesQuikPvP
+version: 1.0
+commands:
+ clear:
+  permissions: clearl.clearl
+  description: "Private function For MCPEServer"
+permissions:
+ clearlagg:
+  description: "Private function For MCPEServer"
+  default: op
+  children:
+   clear.clear:
+    default: op
+    description: "Private function For MCPEServer /clear lagg"
