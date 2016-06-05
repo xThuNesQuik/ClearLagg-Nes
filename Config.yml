@@ -1,5 +1,5 @@
 ---
-Clear-msg: '§8[§eGoldens§aPE§8]§7 Clear Entities @count Succefully!'
-PreClear-msg: '§8[§eGoldens§aPE§8]§7 Warning ClearLagg in 30s!'
+Clear-msg: '§8[§4ClearLagg - Nes§8]§7 Clear Entities @count Succefully!'
+PreClear-msg: '§8[§4ClearLagg - Nes§8]§7 Warning ClearLagg in 30s!'
 Clear-time: 440
 ...
